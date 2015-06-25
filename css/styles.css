@@ -1,3 +1,68 @@
+/* Extra small devices (phones, less than 768px) */
+
+@media (max-width: 768px) {
+
+a,p{
+	font-size: 12px;
+}
+.logo-header{
+	width: 40px;
+}
+.text-header{
+	height: 47px;
+}
+	
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+a,p{
+	font-size: 14px;
+}
+
+.logo-header{
+	width: 40px;
+}
+.text-header{
+	height: 47px;
+}
+	
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+a,p{
+	font-size: 13px;
+}
+.logo-header{
+	width: 45px;
+}
+.text-header{
+	height: 52px;
+}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+a,p{
+	font-size: 13px;
+}
+.logo-header{
+	width: 50px;
+}
+.text-header{
+	height: 57px;
+}
+
+}
+
+/* End Media queries */
+
 a{
 	text-decoration: underline;
 }
@@ -13,9 +78,6 @@ a{
 	position: relative;
 	margin-top: -30px;
 }
-.logo-header{
-	width: 50px;
-}
 .margin-upbottom{
 	margin: 3em 0 2em 0;
 }
@@ -28,4 +90,10 @@ a{
 }
 .text-header{
 	height: 57px;
+}
+.oferta-header{
+	position: relative;
+	top: 1em;
+	float: right;
+	width: 15%;
 }
