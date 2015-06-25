@@ -1,0 +1,25 @@
+{
+  "name": "Formacion de profesorado CODE",
+  "version": "0.0.2",
+  "description": "Inscripcion cursos profesores UNET",
+  "main": "index.html",
+  "keywords": [
+    "laravel",
+    "js"
+  ],
+  "authors": [
+    "Romer Maldonado",
+    "Eduardo Alvarez"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
