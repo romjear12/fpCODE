@@ -1,31 +1,41 @@
 /* Extra small devices (phones, less than 768px) */
-
 @media (max-width: 768px) {
 
 a,p{
 	font-size: 12px;
 }
-.logo-header{
+.content{
+	padding: 1em 0;
+}
+.icon-user{
 	width: 40px;
 }
-.text-header{
-	height: 47px;
+.logo-header{
+	width: 30px;
 }
-	
+.text-header{
+	height: 30px;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
 a,p{
-	font-size: 14px;
+	font-size: 13px;
 }
-
+.content{
+	padding: 3em 2em;
+}
+.icon-user{
+	width: 50px;
+}
 .logo-header{
 	width: 40px;
 }
 .text-header{
-	height: 47px;
+	height: 37px;
 }
 	
 }
@@ -37,11 +47,20 @@ a,p{
 a,p{
 	font-size: 13px;
 }
+.content{
+	padding: 3em 2em;
+}
+.icon-user{
+	width: 60px;
+}
 .logo-header{
 	width: 45px;
 }
 .text-header{
 	height: 52px;
+}
+.margin-upbottom{
+	margin: 3em 0 2em 0;
 }
 
 }
@@ -52,11 +71,20 @@ a,p{
 a,p{
 	font-size: 13px;
 }
+.content{
+	padding: 3em 2em;
+}
+.icon-user{
+	width: 60px;
+}
 .logo-header{
 	width: 50px;
 }
 .text-header{
 	height: 57px;
+}
+.margin-upbottom{
+	margin: 3em 0 2em 0;
 }
 
 }
@@ -69,7 +97,6 @@ a{
 .bg-gray{
 	background-color: #EEE;
 	border-radius: 5px;
-	margin: 3em 2em 1em;
 }
 .bg-dark-gray{
 	background-color: #CCC;
@@ -78,18 +105,15 @@ a{
 	position: relative;
 	margin-top: -30px;
 }
-.margin-upbottom{
-	margin: 3em 0 2em 0;
-}
 .page-footer{
 	background-color: #10477E;
 	color: white;
 }
+.page-footer p{
+	margin: 0;
+}
 .txt-gray{
 	color: #B7AAB4;
-}
-.text-header{
-	height: 57px;
 }
 .oferta-header{
 	position: relative;
