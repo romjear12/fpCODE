@@ -3,6 +3,7 @@ a{
 }
 .bg-gray{
 	background-color: #EEE;
+	border-radius: 5px;
 	margin: 3em 2em 1em;
 }
 .bg-dark-gray{
@@ -12,10 +13,19 @@ a{
 	position: relative;
 	margin-top: -30px;
 }
+.logo-header{
+	width: 50px;
+}
+.margin-upbottom{
+	margin: 3em 0 2em 0;
+}
 .page-footer{
 	background-color: #10477E;
 	color: white;
 }
 .txt-gray{
 	color: #B7AAB4;
+}
+.text-header{
+	height: 57px;
 }
