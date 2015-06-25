@@ -20,6 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.5"
-  }
+    "normalize.css": "~3.0.3"
+  },
+  "homepage": "https://github.com/romjear12/fpCODE"
 }

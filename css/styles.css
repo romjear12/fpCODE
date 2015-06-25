@@ -1,0 +1,21 @@
+a{
+	text-decoration: underline;
+}
+.bg-gray{
+	background-color: #EEE;
+	margin: 3em 2em 1em;
+}
+.bg-dark-gray{
+	background-color: #CCC;
+}
+.icon-user{
+	position: relative;
+	margin-top: -30px;
+}
+.page-footer{
+	background-color: #10477E;
+	color: white;
+}
+.txt-gray{
+	color: #B7AAB4;
+}
