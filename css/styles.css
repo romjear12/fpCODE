@@ -6,6 +6,7 @@ a,p{
 }
 .content{
 	padding: 3em 1em;
+	margin-top: 49px;
 }
 .icon-user{
 	width: 40px;
@@ -27,6 +28,7 @@ a,p{
 }
 .content{
 	padding: 3em 3em;
+	margin-top: 71px;
 }
 .icon-user{
 	width: 50px;
@@ -49,6 +51,7 @@ a,p{
 }
 .content{
 	padding: 3em 3em;
+	margin-top: 67px;
 }
 .icon-user{
 	width: 60px;
@@ -73,6 +76,7 @@ a,p{
 }
 .content{
 	padding: 3em 3em;
+	margin-top: 73px;
 }
 .icon-user{
 	width: 60px;
@@ -105,6 +109,12 @@ a{
 	position: relative;
 	margin-top: -30px;
 }
+.titulo-oferta{
+	margin: 0;
+	padding: 0.6em 0.5em;
+	font-size: 16px;
+	font-weight: bold;
+}
 .page-footer{
 	background-color: #10477E;
 	color: white;
@@ -112,8 +122,31 @@ a{
 .page-footer p{
 	margin: 0;
 }
+.page-header a{
+	text-decoration: none;
+}
 .txt-gray{
 	color: #B7AAB4;
+}
+.oferta-blue{
+	background-color: #1265AF;
+	color: white;
+}
+.oferta-green{
+	background-color: #00A859;
+	color: white;
+}
+.oferta-orange{
+	background-color: #F68B37;
+	color: white;
+}
+.oferta-red{
+	background-color: #ED3237;
+	color: white;
+}
+.oferta-purple{
+	background-color: #674EA7;
+	color: white;
 }
 .oferta-header{
 	position: relative;
